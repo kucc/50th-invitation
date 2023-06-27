@@ -187,14 +187,14 @@ const Project = props => {
                     {props.title}{' '}
                 </div>
                 {props.children}
-                <div className="buttons">
+                {/* <div className="buttons">
                     <a href={repo} target="_blank" rel="noopener noreferrer">
                         View source <i className="fas fa-external-link-alt" />
                     </a>
                     <a href={link} target="_blank" rel="noopener noreferrer">
                         Try it Live <i className="fas fa-external-link-alt" />
                     </a>
-                </div>
+                </div> */}
             </div>
         </div>
     );
@@ -219,9 +219,9 @@ const Projects = props => {
                 </div>
                 <div className="projects-wrapper">
                     <Project
-                        title="Anonymous Message Board."
+                        title="추억의 갤러리"
                         img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/AnonMsgBoard.jpg'}
-                        tech="js css react node"
+                        tech="70 80 90 00 10 20"
                         link="https://yagoestevez-anon-msg-board.glitch.me/"
                         repo="https://github.com/yagoestevez/anonymous-message-board"
                     >
@@ -234,7 +234,7 @@ const Projects = props => {
                         </p>
                     </Project>
                     <Project
-                        title="Stock Price Checker."
+                        title="기념 영상 "
                         img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/StockPriceChecker.jpg'}
                         tech="js node css"
                         link="https://yagoestevez-stock-price-checker.glitch.me/"
@@ -249,7 +249,7 @@ const Projects = props => {
                         </p>
                     </Project>
                     <Project
-                        title="Personal Library."
+                        title="기념사"
                         img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/PersonalLibrary.jpg'}
                         tech="js node css"
                         link="https://yagoestevez-personal-library.glitch.me/"
@@ -262,7 +262,7 @@ const Projects = props => {
                         </p>
                     </Project>
                     <Project
-                        title="Issue Tracker."
+                        title="주요 연혁 소개"
                         img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/IssueTracker.jpg'}
                         tech="js node css"
                         link="https://yagoestevez-issue-tracker.glitch.me/"
@@ -272,7 +272,7 @@ const Projects = props => {
                         <p>Yet another full-stack app to save and manage technical issues to be fixed.</p>
                     </Project>
                     <Project
-                        title="Metric-Imperial Converter."
+                        title="축사"
                         img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/MetricImperialConverter.jpg'}
                         tech="js node css"
                         link="https://yagoestevez-metric-imperial-converter.glitch.me/"
@@ -285,7 +285,7 @@ const Projects = props => {
                         </p>
                     </Project>
                     <Project
-                        title="URL Shortener Microservice."
+                        title="비전 소개"
                         img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Cortala.jpg'}
                         tech="js node css"
                         link="https://cortala.glitch.me/example"
@@ -298,7 +298,7 @@ const Projects = props => {
                         </p>
                     </Project>
                     <Project
-                        title="Exercise Tracker."
+                        title="kucc에게 바란다"
                         img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/ExerciseTracker.jpg'}
                         tech="js vue node css"
                         link="https://yagoestevez-exercise-tracker.glitch.me"
@@ -311,7 +311,7 @@ const Projects = props => {
                         </p>
                     </Project>
                     <Project
-                        title="Bar Chart."
+                        title="kucc는 000다."
                         img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/BarChart.jpg'}
                         tech="js d3 css"
                         link="https://codepen.io/yagoestevez/full/wxjmrB/"
@@ -321,7 +321,7 @@ const Projects = props => {
                         <p>A bar chart representing the evolution of the US GDP.</p>
                     </Project>
                     <Project
-                        title="Treemap Diagram."
+                        title="퀴즈 타임"
                         img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/TreemapDiagram.jpg'}
                         tech="js d3 css"
                         link="https://codepen.io/yagoestevez/full/bjZygz/"
@@ -333,7 +333,7 @@ const Projects = props => {
                         </p>
                     </Project>
                     <Project
-                        title="Choropleth Map."
+                        title="뒷풀이"
                         img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/ChoroplethMap.jpg'}
                         tech="js d3 css"
                         link="https://codepen.io/yagoestevez/full/NBeaWK/"
@@ -343,7 +343,7 @@ const Projects = props => {
                         <p>A choropleth map representing the educational attainment by county in the U.S.</p>
                     </Project>
                     <Project
-                        title="Random Quoting Machine."
+                        title="댄스공연"
                         img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/QuotingMachine.jpg'}
                         tech="js vue css"
                         link="https://codepen.io/yagoestevez/full/bxgEyd/"
@@ -353,7 +353,7 @@ const Projects = props => {
                         <p>A random quoting app which retrieves pictures and quotes from two different APIs.</p>
                     </Project>
                     <Project
-                        title="Calculator."
+                        title="케이터링"
                         img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Calculator.jpg'}
                         tech="js react css"
                         link="https://codepen.io/yagoestevez/full/ERVONM/"
@@ -362,7 +362,7 @@ const Projects = props => {
                         <small>Built using React and CSS.</small>
                         <p>A project on which I built a virtual calculator with its usual features.</p>
                     </Project>
-                    <Project
+                    {/* <Project
                         title="Pomodoro Timer."
                         img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/TomateTimer.jpg'}
                         tech="js react css"
@@ -392,7 +392,7 @@ const Projects = props => {
                         link="https://codepen.io/yagoestevez/full/xjwVPq/"
                     >
                         {/* repo="https://github.com/yagoestevez/TicTacToe"> */}
-                        <small>Built using VueJS, Axios and Scss.</small>
+                        {/*<small>Built using VueJS, Axios and Scss.</small>
                         <p>
                             Simple Twitch clone using the new Twitch Helix API and made for the legacy front-end
                             projects on FreeCodeCamp.
@@ -405,7 +405,7 @@ const Projects = props => {
                         link="https://codepen.io/yagoestevez/full/zWbGmZ/"
                     >
                         {/* repo="https://github.com/yagoestevez/TicTacToe"> */}
-                        <small>Built using VueJS, Axios and CSS.</small>
+                        {/*<small>Built using VueJS, Axios and CSS.</small>
                         <p>App that present the users with the current local weather for their location.</p>
                     </Project>
                     <Project
@@ -451,7 +451,7 @@ const Projects = props => {
                         <p>
                             A technical documentation page made for a little React library I published on NPM.
                         </p>
-                    </Project>
+                    </Project> */}
                 </div>
             </div>
         </section>
